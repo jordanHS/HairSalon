@@ -24,6 +24,7 @@ namespace HairSalon.Controllers
 
     public ActionResult Create()
     {
+       ViewBag.Stylist = new SelectList(db.Stylists, "StylistId", "Name", "Specialty");
       return View();
     }
 
@@ -44,13 +45,14 @@ namespace HairSalon.Controllers
     public ActionResult Edit(int id)
     {
       var thisClient = _db.Clients.FirstOrDefault(clients => clients.ClientId == id);
+      ViewBag.StylistId = new SelectList(db.Stylists, "Stylist", "Name", "Description");
       return View(thisClient);
     }
 
     [HttpPost]
     public ActionResult Edit(Client client)
     {
-      _db.Entry(client).State = EntityState.Modified;
+      _db.Entry(clients).State = EntityState.Modified;
       _db.SaveChanges();
       return RedirectToAction("Index");
     }
