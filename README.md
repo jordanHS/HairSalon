@@ -16,13 +16,17 @@ Create a MVC application with a database to allow users to input stylists, and a
 
 ## Setup/Installation Requirements
 
-1. Clone this repo:
+1. Create MySql database titled jordan_safford
+    - Table One: Stylists; Columns: StylistId, Name & Description
+    - Table Two: Clients; Columns: ClientId & Name
+
+2. Clone this repo:
 ```
 https://github.com/jordanHS/HairSalon
 
 ```
 
-2. Go into the repo and run this application: 
+3. Go into the repo and run this application: 
 ```
 $ dotnet run
 ```
