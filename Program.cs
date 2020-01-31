@@ -17,3 +17,4 @@ namespace HairSalon
       host.Run();
     }
   }
+}

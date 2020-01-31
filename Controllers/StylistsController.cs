@@ -1,5 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
-using ToDoList.Models;
+using HairSalon.Models;
 using System.Collections.Generic;
 using System.Linq;
 using Microsoft.EntityFrameworkCore;
@@ -8,9 +8,9 @@ namespace HairSalon.Controllers
 {
   public class StylistsController : Controller
   {
-    private readonly ToDoListContext _db;
+    private readonly HairSalonContext _db;
 
-    public StylistsController(ToDoListContext db)
+    public StylistsController(HairSalonContext db)
     {
       _db = db;
     }
@@ -56,7 +56,7 @@ namespace HairSalon.Controllers
 
     public ActionResult Delete(int id)
     {
-      var thisStylist = _db.Stylists.FirstOrDefault(stylist => stylist.stylistId == id);
+      var thisStylist = _db.Stylists.FirstOrDefault(stylist => stylist.StylistId == id);
       return View(thisStylist);
     }
 

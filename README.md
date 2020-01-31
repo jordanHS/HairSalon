@@ -38,7 +38,7 @@ $ dotnet run
  jordansafford@gmail.com
 
 ## Technologies Used
-_Git, GitHub, C# and .NET Core_
+_Git, GitHub, C#, .NET Core & MySql_
 
 
 ## License
