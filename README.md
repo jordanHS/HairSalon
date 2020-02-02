@@ -11,9 +11,9 @@ Create a MySql application with a database to allow users to input stylists, and
 
 ## Unit Testing
 
-####Stylist:
+#### Stylist:
  
-###Input:
+### Input:
 
 | StylistId | Name | Speciality |
 | :------------- | :------------- |
@@ -22,9 +22,9 @@ Create a MySql application with a database to allow users to input stylists, and
 | ClientId | Name | Appointment |StylistId |
 | 0 | Renee | 10:45 | 0|
 
-###Output:
+### Output:
 
-####Sylist Details
+#### Sylist Details
 --------------
 
 Name: Jeremy
@@ -34,7 +34,7 @@ Name: Jeremy
 Clients
 * Renee | Jeremy
 
-####Client Details
+#### Client Details
 -----------------
 
 Name: Renee
