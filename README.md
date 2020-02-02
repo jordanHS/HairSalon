@@ -17,8 +17,8 @@ Create a MVC application with a database to allow users to input stylists, and a
 ## Setup/Installation Requirements
 
 1. Create MySql database titled jordan_safford
-    - Table One: Stylists; Columns: StylistId, Name & Description
-    - Table Two: Clients; Columns: ClientId & Name
+    - Table One: Stylists; Columns: StylistId, Name & Specialty
+    - Table Two: Clients; Columns: ClientId, Name, Appointment & StylistId
 
 2. Clone this repo:
 ```
