@@ -26,17 +26,18 @@ Create a MySql application with a database to allow users to input stylists, and
 ### Output:
 
 #### Sylist Details
---------------
+
 
 Name: Jeremy
 * Renee
+
 
 
 Clients
 * Renee | Jeremy
 
 #### Client Details
------------------
+
 
 Name: Renee
 Appointment: 10:45
