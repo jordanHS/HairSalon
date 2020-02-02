@@ -3,16 +3,47 @@
 #### _C#, .NET: Hair Salon, 1/16/2020_
 
 ## Description
-Create a MVC application with a database to allow users to input stylists, and add clients to the list of those added stylists
+Create a MySql application with a database to allow users to input stylists, and add clients to the list of those added stylists
 
 ## Application should have:
 - Interact with user and create new stylists, and the clients they serve.
 - Separate frontend and backend logic.
 
 ## Unit Testing
-| User input | Expected output |
+
+Stylist:
+ 
+Input:
+
+| StylistId | Name | Speciality |
 | :------------- | :------------- |
-| Stylist Name, ClientName | Stylist: client |
+| 0 | Jeremy | Colorist |
+
+| ClientId | Name | Appointment |StylistId |
+| 0 | Renee | 10:45 | 0|
+
+Output:
+
+Sylist Details
+--------------
+
+Name: Jeremy
+* Renee
+
+
+Clients
+* Renee | Jeremy
+
+Client Details
+-----------------
+
+Name: Renee
+Appointment: 10:45
+
+
+
+ 
+
 
 ## Setup/Installation Requirements
 
@@ -32,7 +63,7 @@ $ dotnet run
 ```
 
 ## Known Bugs
-* No known bugs at this time.
+* List of clients not displaying for a stylist
 
 ## Support and contact details
  jordansafford@gmail.com
