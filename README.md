@@ -10,8 +10,6 @@ Create a MySql application with a database to allow users to input stylists, and
 - Separate frontend and backend logic.
 
 ## Unit Testing
-
-#### Stylist:
  
 ### Input:
 
