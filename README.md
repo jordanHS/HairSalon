@@ -17,7 +17,7 @@ Create a MySql application with a database to allow users to input stylists, and
 | :------------- | :----------| :------------- |
 | 0 | Jeremy | Colorist |
 
------------------------------------------
+
 
 | ClientId | Name | Appointment | StylistId |
 | :---------- | :-------- | :-------- | :-----------|
